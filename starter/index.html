@@ -5,87 +5,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Priyadarsini Gunasekaran - Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Priya Satish // Web Developer</title>
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Priyadarsini Gunasekaran</h1>
-    <nav class="navbar">
-      <ul class="navbar-list">
-        <li class="navbar-item">
-          <button class="navbar-link  active" data-nav-link>About Me</button>
-        </li>
-
-        <li class="navbar-item">
-          <button class="navbar-link" data-nav-link>Work</button>
-        </li>
-
-        <li class="navbar-item">
-          <button class="navbar-link" data-nav-link>Contact Me</button>
-        </li>
-
-        <li class="navbar-item">
-          <button class="navbar-link" data-nav-link>Resume</button>
-        </li>
+    <nav>
+      <h1>Priyadarsini Gunasekaran</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact Me</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
       </ul>
     </nav>
   </header>
 
-  <aside class="sidebar" data-sidebar>
-    <div class="sidebar-info">
-      <figure class="avatar-box">
-        <img src="../images/priya.jpg" alt="Priyadarsini Gunasekaran" width="80">
-      </figure>
+  <!-- hero banner -->
+   <div class="hero-banner">
+      <div class="hero-text">
+        <h3>I am Priya</h3>
+        <p>and I'm a Trilogy Bootcamp Student!</p>
+      </div>
     </div>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
+  <!-- avatar profile -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./images/priya.jpg">
+        </figure>
+      </div>
+    </aside>
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <p>
-        I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-        I enjoy
-        turning complex problems into simple, beautiful and intuitive designs.
-      </p>
-
-      <p>
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-        Moreover, I
-        add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-        across your
-        message and identity in the most creative way. I created web design for many famous brand companies.
-      </p>
+    <section class="page-section about" id="about">
+      <div class="flex-container">
+        <div>
+          <h1>About Me</h1>
+          <p>Greetings, my name is Priyadarsini Gunasekaran </p>  
+      </div>
     </section>
 
-
-
     <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-
-
+    <section class="page-section work" id="work">
+      <div class="flex-container">
+        <div>
+          <h1>Work</h1>
+          <p>Greetings, my name is Priyadarsini Gunasekaran </p>  
+      </div>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <div class="center">
-        <a href="#">Mobile No</a>
-        <a href="#">Website</a>
-        <a href="#">GitHub</a>
-        <a href="#">Twitter</a>
-        <a href="#">Spotify</a>
-      </div>  
+      <div class="flex-container">
+        <div>
+          <h1>Contact Me</h1>
+          <p>Greetings, my name is Priyadarsini Gunasekaran </p>  
+      </div>
+    </section>
+
+    <!-- resume -->
+    <section class="page-section resume" id="resume">
+      <div class="flex-container">
+        <div>
+          <h1>Resume</h1>
+          <p>Greetings, my name is Priyadarsini Gunasekaran </p>  
+      </div>
     </section>
   </main>
 </body>
