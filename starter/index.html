@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Priya Satish // Web Developer</title>
+  <title>Priyadarsini - Web Developer</title>
   <!-- CSS Styles -->
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="../starter/css/style.css">
 </head>
 
 <body>
@@ -16,30 +16,38 @@
     <nav>
       <h1>Priyadarsini Gunasekaran</h1>
       <ul class="navigation">
+        <!-- Acceptance Criteria #02 -->
         <li><a href="#about" class="nav-link">About Me</a></li>
-        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#contact" class="nav-link">Contact Me</a></li>
-        <li><a href="#resume" class="nav-link">Resume</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
-   <div class="hero-banner">
-      <div class="hero-text">
-        <h3>I am Priya</h3>
-        <p>and I'm a Trilogy Bootcamp Student!</p>
+  <div class="hero-banner">
+    <div class="hero-text">
+      <h3>I'm a student with Trilogy Skills Bootcamp in Front-End Web Development!</h3>
+    </div>
+  </div>
+
+  <!-- avatar profile & subtitle -->
+  <!-- Acceptance Criteria #01 -->
+  <div class="flex-container">
+    <div>
+      <div class="avatar-wrapper">
+        <div>
+          <img
+            src="../starter/images/priya.jpg"
+            alt="Priya"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
       </div>
     </div>
-
-  <!-- avatar profile -->
-    <aside class="sidebar" data-sidebar>
-      <div class="sidebar-info">
-        <figure class="avatar-box">
-          <img src="./images/priya.jpg">
-        </figure>
-      </div>
-    </aside>
+  </div>
 
   <main class="page-wrapper">
     <!-- about me -->
@@ -47,16 +55,71 @@
       <div class="flex-container">
         <div>
           <h1>About Me</h1>
-          <p>Greetings, my name is Priyadarsini Gunasekaran </p>  
+          <p>Greetings, my name is Priyadarsini Gunasekaran. I'm a home maker from Birmingham, United Kingdom, currently studying with Trilogy Skills Bootcamp in Front-End Web Development.
+            I enjoy working with and solving problems. Besides work, I enjoy cooking different cuisines, watching movies and I love spending time with my preschooler daughter Reya.</p>
       </div>
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section work" id="work">
+    <section class="page-section skills" id="skills">
       <div class="flex-container">
         <div>
-          <h1>Work</h1>
-          <p>Greetings, my name is Priyadarsini Gunasekaran </p>  
+          <h2 class="skill-header">My Top Skills</h2>
+          <div class="skills-wrapper">
+            <div>
+              <img
+                src="../starter/icons/icons8-css3.svg"
+                alt="CSS3"
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="../starter/icons/icons8-html-5.svg"
+                alt="HTML-5"
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="../starter/icons/icons8-git.svg"
+                alt="GIT"
+                loading="lazy"
+                class="icon icon-card"
+              />
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="../starter/images/02-portfolio-2.jpg"
+            alt="Module01 Challenge"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Module01 Challenge</h3>
+          <p class="project-details">
+            Working With CSS Challenge: Portfolio!
+            A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it.
+          </p>
+          <a href="https://www.google.co.uk/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="../starter/images/02-portfolio-1.jpg"
+            alt="Bootcamp Prework"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Bootcamp Prework</h3>
+          <p class="project-details">
+            Build a simple website!
+            The prework will provide you with the preliminary skills and information you need to begin the course. It will also give you a glimpse of what's to come. Complete all assignments, some of which will be fairly challenging & require outside research.
+          </p>
+          <a href="https://www.w3schools.com/" target="_blank" class="project-link">Check it Out</a>
+        </div>
       </div>
     </section>
 
@@ -65,19 +128,14 @@
       <div class="flex-container">
         <div>
           <h1>Contact Me</h1>
-          <p>Greetings, my name is Priyadarsini Gunasekaran </p>  
-      </div>
+          <ul class="contacts">
+            <li><a href="#" class="nav-link">Mobile: +44(0) 744 871 4609</a></li>
+            <li><a href="#" class="nav-link">LinkedIn</a></li>
+            <li><a href="#" class="nav-link">GitHub</a></li>
+            <li><a href="#" class="nav-link">Twitter</a></li>
+            <li><a href="#" class="nav-link">Spotify</a></li>
+          </ul>
+        </div>
     </section>
-
-    <!-- resume -->
-    <section class="page-section resume" id="resume">
-      <div class="flex-container">
-        <div>
-          <h1>Resume</h1>
-          <p>Greetings, my name is Priyadarsini Gunasekaran </p>  
-      </div>
-    </section>
-  </main>
-</body>
 
 </html>
